@@ -9,7 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
   .container {
-  		padding: 80px 120px;
+      padding: 80px 120px;
   }
   .person {
       border: 10px solid transparent;
@@ -22,17 +22,13 @@
       border-color: #f1f1f1;
   }
   .carousel-inline img {
-      position: absolute; 
-      right: 0;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      min-height: 50%
-      min-width: 50%;
+      background-size: cover; 
+      -webkit-filter: grayscale(90%);
+      filter: grayscale(90%); /* make all photos black and white */ 
+      height:  100% /* Set height to 100% */
       margin: auto;
-      -webkit-filter: none;
   }
-  .carousel-caption h1 {
+  .carousel-caption h3 {
       color: #fff !important;
   }
   @media (max-width: 600px) {
@@ -49,44 +45,36 @@
     letter-spacing: 4px;
     opacity:0.9;
 }
-
 /* Add a gray color to all navbar links */
 .navbar li a, .navbar .navbar-brand { 
     color: #d5d5d5 !important;
 }
-
 /* On hover, the links will turn white */
 .navbar-nav li a:hover {
     color: #fff !important;
 }
-
 /* The active link */
 .navbar-nav li.active a {
     color: #fff !important;
     background-color:#29292c !important;
 }
-
 /* Remove border color from the collapsible button */
 .navbar-default .navbar-toggle {
     border-color: transparent;
 }
-
 /* Dropdown */
 .open .dropdown-toggle {
     color: #fff ;
     background-color: #555 !important;
 }
-
 /* Dropdown links */
 .dropdown-menu li a {
     color: #000 !important;
 }
-
 /* On hover, the dropdown links will turn red */
 .dropdown-menu li a:hover {
     background-color: red !important;
 }
-
   </style>
 </head>
 <body>
@@ -100,7 +88,7 @@
   </ol>
 
   <!-- Wrapper for slides -->
-  <div class="carousel-inline" role="listbox">
+  <div class="carousel-inner" role="listbox">
     <div class="item active">
       <img src="1-introduction/img/yoyo-fruit.jpg" alt="2.008 Yoyo">
     </div>
@@ -117,10 +105,9 @@
   </a>
 </div>
 
-<div class="carousel-caption">
+<div class="container text-center">
   <h1>How To Design (almost) Anything</h1>
-  <h1>Amna Magzoub</h1>
-  <br>
+  <h2>Amna Magzoub</h2>
   <p>A compilation of my weekly assignments for my 4.141 class. Scroll down to see what I'm upto!</p>
 </div>
 
