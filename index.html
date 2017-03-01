@@ -1,200 +1,168 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>HTDaA - Amna Magzoub</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-  .container {
-      padding: 80px 120px;
-  }
-  .person {
-      border: 10px solid transparent;
-      margin-bottom: 25px;
-      width: 80%;
-      height: 80%;
-      opacity: 0.7;
-  }
-  .person:hover {
-      border-color: #f1f1f1;
-  }
-  .carousel-inline img {
-      background-size: cover; 
-      -webkit-filter: grayscale(90%);
-      filter: grayscale(90%); /* make all photos black and white */ 
-      height:  100% /* Set height to 100% */
-      margin: auto;
-  }
-  .carousel-caption h3 {
-      color: #fff !important;
-  }
-  @media (max-width: 600px) {
-    .carousel-caption {
-      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-    }
-  }  
-/* Add a dark background color with a little bit see-through */ 
-.navbar {
-    margin-bottom: 0;
-    background-color: #2d2d30;
-    border: 0;
-    font-size: 11px !important;
-    letter-spacing: 4px;
-    opacity:0.9;
-}
-/* Add a gray color to all navbar links */
-.navbar li a, .navbar .navbar-brand { 
-    color: #d5d5d5 !important;
-}
-/* On hover, the links will turn white */
-.navbar-nav li a:hover {
-    color: #fff !important;
-}
-/* The active link */
-.navbar-nav li.active a {
-    color: #fff !important;
-    background-color:#29292c !important;
-}
-/* Remove border color from the collapsible button */
-.navbar-default .navbar-toggle {
-    border-color: transparent;
-}
-/* Dropdown */
-.open .dropdown-toggle {
-    color: #fff ;
-    background-color: #555 !important;
-}
-/* Dropdown links */
-.dropdown-menu li a {
-    color: #000 !important;
-}
-/* On hover, the dropdown links will turn red */
-.dropdown-menu li a:hover {
-    background-color: red !important;
-}
-  </style>
-</head>
-<body>
+<!DOCTYPE HTML>
+<!--
+	Road Trip by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Road Trip by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="index.html">Road Trip <span>by TEMPLATED</span></a></div>
+				<a href="#menu"><span>Menu</span></a>
+			</header>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="1-introduction/img/yoyo-fruit.jpg" alt="2.008 Yoyo">
-    </div>
-  </div>
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">Generic</a></li>
+					<li><a href="elements.html">Elements</a></li>
+				</ul>
+			</nav>
 
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+		<!-- Banner -->
+		<!--
+			Note: To show a background image, set the "data-bg" attribute below
+			to the full filename of your image. This is used in each section to set
+			the background image.
+		-->
+			<section id="banner" class="bg-img" data-bg="banner.jpg">
+				<div class="inner">
+					<header>
+						<h1>This is Road Trip</h1>
+					</header>
+				</div>
+				<a href="#one" class="more">Learn More</a>
+			</section>
 
-<div class="container text-center">
-  <h1>How To Design (almost) Anything</h1>
-  <h2>Amna Magzoub</h2>
-  <p>A compilation of my weekly assignments for my 4.141 class. Scroll down to see what I'm upto!</p>
-</div>
+		<!-- One -->
+			<section id="one" class="wrapper post bg-img" data-bg="banner2.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>Nibh non lobortis mus nibh</h2>
+							<p>01.01.2017</p>
+						</header>
+						<div class="content">
+							<p>Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
+						</div>
+						<footer>
+							<a href="generic.html" class="button alt">Learn More</a>
+						</footer>
+					</article>
+				</div>
+				<a href="#two" class="more">Learn More</a>
+			</section>
 
-  <div class="row">
+		<!-- Two -->
+			<section id="two" class="wrapper post bg-img" data-bg="banner5.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>Mus elit a ultricies at</h2>
+							<p>12.21.2016</p>
+						</header>
+						<div class="content">
+							<p>Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
+						</div>
+						<footer>
+							<a href="generic.html" class="button alt">Learn More</a>
+						</footer>
+					</article>
+				</div>
+				<a href="#three" class="more">Learn More</a>
+			</section>
 
-  <!-- Row of photos | Some fixing required to get the right grid format-->
+		<!-- Three -->
+			<section id="three" class="wrapper post bg-img" data-bg="banner4.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>Varius a cursus aliquet</h2>
+							<p>11.11.2016</p>
+						</header>
+						<div class="content">
+							<p>Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
+						</div>
+						<footer>
+							<a href="generic.html" class="button alt">Learn More</a>
+						</footer>
+					</article>
+				</div>
+				<a href="#four" class="more">Learn More</a>
+			</section>
 
-    <div class="col-sm-2">
-      <p><strong>Week 1 - Introduction</strong></p><br>
-      <img src="1-introduction/img/coming_soon.png" class= "person" alt="Random Name">
-    </div>
-    <div class="col-sm-2">
-      <p><strong>Week 2 - Culture + Context</strong></p><br>
-      <img src="1-introduction/img/coming_soon.png" class= "person" alt="Random Name">
-    </div>
-    <div class="col-sm-2">
-      <p><strong>Week 3 - Seeing</strong></p><br>
-      <img src="1-introduction/img/coming_soon.png" class= "person" alt="Random Name">
-    </div>
-    <div class="col-sm-2">
-      <p><strong>Week 4 - Concepts + Idea Generation</strong></p><br>
-      <img src="1-introduction/img/coming_soon.png" class= "person" alt="Random Name">
-    </div>
-    <div class="col-sm-2">
-      <p><strong>Week 5 - Design Process/Tools</strong></p><br>
-      <img src="1-introduction/img/coming_soon.png" class= "person" alt="Random Name">
-    </div>
-    <div class="col-sm-2">
-      <p><strong>Week 6 - Iteration vs. Evolution</strong></p><br>
-      <img src="1-introduction/img/coming_soon.png" class= "person" alt="Random Name">
-    </div>
-    <div class="col-sm-2">
-      <p><strong>Week 7 - Constraints</strong></p><br>
-      <img src="1-introduction/img/coming_soon.png" class= "person" alt="Random Name">
-    </div>
-    <div class="col-sm-2">
-      <p><strong>Week 8 - Break</strong></p><br>
-      <img src="1-introduction/img/coming_soon.png" class= "person" alt="Random Name">
-    </div>
-    <div class="col-sm-2">
-      <p><strong>Week 9 - Failure</strong></p><br>
-      <img src="1-introduction/img/coming_soon.png" class= "person" alt="Random Name">
-    </div>    <div class="col-sm-2">
-      <p><strong>Week 10 - Collaboration</strong></p><br>
-      <img src="1-introduction/img/coming_soon.png" class= "person" alt="Random Name">
-    </div>
-    <div class="col-sm-2">
-      <p><strong>Week 11 - Stories/Narrative</strong></p><br>
-      <img src="1-introduction/img/coming_soon.png" class= "person" alt="Random Name">
-    </div>
-    <div class="col-sm-2">
-      <p><strong>Week 12 - Performance</strong></p><br>
-      <img src="1-introduction/img/coming_soon.png" class= "person" alt="Random Name">
-    </div>
-    <div class="col-sm-2">
-      <p><strong>Week 13 - Scalability</strong></p><br>
-      <img src="1-introduction/img/coming_soon.png" class= "person" alt="Random Name">
-    </div>
-    <div class="col-sm-2">
-      <p><strong>Week 14 - Future Trends</strong></p><br>
-      <img src="1-introduction/img/coming_soon.png" class= "person" alt="Random Name">
-    </div>
-    <div class="col-sm-2">
-      <p><strong>Week 15 - Final Review</strong></p><br>
-      <img src="1-introduction/img/coming_soon.png" class= "person" alt="Random Name">
-    </div>
-  </div>
-</div>
+		<!-- Four -->
+			<section id="four" class="wrapper post bg-img" data-bg="banner3.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>Luctus blandit mi lectus in nascetur</h2>
+							<p>10.30.2016</p>
+						</header>
+						<div class="content">
+							<p>Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
+						</div>
+						<footer>
+							<a href="generic.html" class="button alt">Learn More</a>
+						</footer>
+					</article>
+				</div>
+			</section>
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="#">Logo</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#tour">ASSIGNMENTS</a></li>
-        <li><a href="#contact">RESUME</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-</body>
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+
+					<h2>Contact Me</h2>
+
+					<form action="#" method="post">
+
+						<div class="field half first">
+							<label for="name">Name</label>
+							<input name="name" id="name" type="text" placeholder="Name">
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input name="email" id="email" type="email" placeholder="Email">
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+						</div>
+						<ul class="actions">
+							<li><input value="Send Message" class="button alt" type="submit"></li>
+						</ul>
+					</form>
+
+					<ul class="icons">
+						<li><a href="#" class="icon round fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon round fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon round fa-instagram"><span class="label">Instagram</span></a></li>
+					</ul>
+
+					<div class="copyright">
+						&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
+					</div>
+
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
